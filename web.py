@@ -22,6 +22,11 @@ def add_todo():
 st.title("Minimalist Todo")
 st.subheader("A minimalistic to-do app for the minimalist in you")
 
+st.text_input(label="", placeholder="Enter a todo...",
+              key="new-todo", on_change=add_todo,
+              help="Please add the todo you want on the list",
+              label_visibility="collapsed")
+
 for index, todo in enumerate(todos):
     checkbox = st.checkbox(todo, key=todo)
     if checkbox:
@@ -31,8 +36,5 @@ for index, todo in enumerate(todos):
         del st.session_state[todo]
         st.rerun()
 
-st.text_input(label="", placeholder="Enter a todo...",
-              key="new-todo", on_change=add_todo,
-              help="Please add the todo you want on the list",
-              label_visibility="collapsed")
+
 
