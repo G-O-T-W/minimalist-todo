@@ -14,3 +14,9 @@ A simple, minimalistic to-do app built using Python and Streamlit. This app allo
 - **Python**: The core language used to build the app.
 - **Streamlit**: A powerful and simple framework for building web applications in Python.
 - **Custom Functions Module**: Handles reading and writing to-do items from a file.
+
+## Live Demo
+
+You can check out the deployed version of the Minimalist Todo App here:
+
+[Minimalist Todo App on Streamlit](https://minimalist-todo-app.streamlit.app/)
