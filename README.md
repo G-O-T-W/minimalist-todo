@@ -1,5 +1,5 @@
 # Minimalist Todo App
-### A simple, minimalistic to-do app built using Python and Streamlit. This app allows users to easily add, manage, and delete to-do items with a clean and intuitive interface. It's designed to be lightweight, fast, and easy to use for anyone who prefers a minimalist approach to task management.
+A simple, minimalistic to-do app built using Python and Streamlit. This app allows users to easily add, manage, and delete to-do items with a clean and intuitive interface. It's designed to be lightweight, fast, and easy to use for anyone who prefers a minimalist approach to task management.
 
 ### Features
 Add To-Do Items: Users can quickly add tasks to their to-do list.
